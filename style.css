@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-family: Calibri;
+    background-color: rgba(179, 226, 255, 0.541);
+}
+
+h2{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Calibri;
+    color: #000000;
+}
+.gender {
+    margin-right: 10px;
+}
+.controls{
+    width: 100%;
+    height: 35px;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #999ba1;
+    font-family: Calibri;
+    font-size: 18px;
+}
+.text{
+    font-family: Calibri;
+    font-weight: 800;
+}
+.others{
+    margin-bottom: 20px;
+}
+#textarea{
+    width: 100%;
+    font-family: Calibri;
+    font-size: 18px;
+    padding: 10px;
+}
+select{
+    width: 100%;
+    height: 35px;
+}
+.buttom{
+    width: 50%;
+    background-color: #5582bdfd;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+input:focus{
+    outline:none;
+}
+input:valid:focus{
+    border:  1px solid rgb(20, 182, 28);
+    background-color: rgb(79, 167, 84);
+    color: white;
+}
+input:invalid:focus{
+    border:  1px solid red;
+    background-color: rgb(212, 122, 122);
+    color: white;
+}
+
+textarea:valid:focus{
+    border:  1px solid rgb(20, 182, 28);
+    background-color: rgb(79, 167, 84);
+    color: white;
+}
+textarea:invalid:focus{
+    border:  1px solid red;
+    background-color: rgb(212, 122, 122);
+    color: white;
+}
